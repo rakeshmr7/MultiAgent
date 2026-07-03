@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Terminal, ShieldCheck, Database, FilePenLine, UserCheck, Play, HelpCircle } from 'lucide-react';
+import { Terminal, ShieldCheck, Database, FilePenLine, UserCheck, Play } from 'lucide-react';
 import type { AgentStatus, LogMessage } from '../types';
 
 interface LogConsoleProps {

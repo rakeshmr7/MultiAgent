@@ -15,7 +15,7 @@ export const WorkflowProgress: React.FC<WorkflowProgressProps> = ({ status }) =>
     { id: 'completed', label: 'Completed', runStatus: ['completed'] },
   ];
 
-  const getStepState = (stepId: string, idx: number) => {
+  const getStepState = (_stepId: string, idx: number) => {
     // If failed
     if (status === 'failed') {
       // Find out where we failed. If validating fails, the validator failed.

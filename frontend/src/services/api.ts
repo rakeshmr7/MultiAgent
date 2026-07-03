@@ -1,7 +1,9 @@
 import axios from 'axios';
 import type { ReportResponse, ProgressUpdate } from '../types';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+// In production the API is served same-origin under /api (see vercel.json).
+// For local development set VITE_API_URL=http://localhost:8000 in frontend/.env.
+const API_URL = import.meta.env.VITE_API_URL || '/api';
 
 export const api = {
   async getHealth() {

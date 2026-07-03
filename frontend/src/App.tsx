@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { ShieldCheck, Cpu, Moon, Sun, Terminal, Play, AlertCircle, AlertTriangle } from 'lucide-react';
+import { Cpu, Moon, Sun, Terminal, Play, AlertTriangle } from 'lucide-react';
 import { api } from './services/api';
 import type { AgentStatus, LogMessage } from './types';
 import { SamplePrompts } from './components/SamplePrompts';
